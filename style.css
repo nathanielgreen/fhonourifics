@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  width: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  font-size: 10px;
+  color: #fcfcfc;
+}
+.home {
+  font-weight: bold;
+  width: 100%;
+}
+.photo {
+  width: 100%;
+  margin: 0;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.navbar-header {
+  padding-left: 50px;
+  padding-top: 25px;
+  margin: 0;
+  display: inline-block;
+}
+#buy {
+  float: right;
+}
+#info {
+  padding-right: 50px;
+  float: right;
+}
+
+.bottom-photo {
+  position: relative;
+}
+.bottom-photo img {
+  position: relative;
+  z-index: 1;
+}
+.bottom-photo p {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  padding-left: 25px;
+  z-index: 2;
+}
+
